@@ -1,0 +1,66 @@
+.img-responsive,
+.thumbnail  img,
+.thumbnail a  img,
+.carousel-inner  .item  img,
+.carousel-inner  .item  a  
+img 
+{
+  display: block;
+  width: 100%;
+  /*  max-width: 400px; */
+  height: auto;
+  max-height: 500px;
+  max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-inner .container {
+    width: 100%;
+    height:auto;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.container{
+    background: rgba(0,0,0,1);
+}
+
+.col-sm-4, .col-sm-offset-4 {
+    border-radius: 20px;
+    background: rgba(255,255,255,1);
+    padding: 2px; 
+    width: auto;
+    max-width: 420px;
+    height: 400px;
+    margin: 20px;
+    text-align:center;
+}
+
+.text{
+    color: #fff;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+}
+
+.carousel-inner .carousel-caption {
+    bottom: 0% !important;
+    background: rgba(0,0,0,.5);
+    width:auto;
+    height:auto;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.carousel-caption {
+font-family: "Times New Roman", Times, serif;
+}
+
+.jumbotron {
+    background: rgba(1,1,1,1)  !important;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-color: "white" !important;
+}
